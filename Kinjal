@@ -1,0 +1,7 @@
+cd path/to/your/project
+git init                 # initialize git if not already done
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git add .
+git commit -m "Initial commit after repo recreation"
+git branch -M main       # rename branch to main if needed
+git push -u origin main
